@@ -319,11 +319,13 @@ body {
     padding-left: 22px;
     border: 0;
 }
+
 ::placeholder {
     color: #27272799;
     font-size: 16px;
     font-weight: 400;
 }
+
 .latest-deals a {
     color: #FFF;
     font-size: 20px;
@@ -335,3 +337,39 @@ body {
     margin-left: 5px;
 }
 
+/* footer part style  */
+.footer-details {
+    background-color: #111010;
+    height: 449px;
+}
+
+.footer-details h3 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 128px;
+}
+
+.footer-span {
+    color: #E55473;
+}
+
+.footer-details p {
+    color: #FFFFFFE5;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+    width: 625px;
+    margin: auto;
+}
+
+.footer-details .date {
+    color:#FFFFFF66;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 32px;
+}
