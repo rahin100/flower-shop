@@ -29,7 +29,7 @@ body {
 
 .banner-left {
     width: 50%;
-    margin: 120px 0 147px 240px;
+    margin: 197px 0 147px 240px;
 
 }
 
@@ -38,7 +38,7 @@ body {
     font-size: 80px;
     font-weight: 800;
     width: 708px;
-    margin-bottom: 28px;
+    margin-bottom: 32px;
 }
 
 .banner-left p {
@@ -47,7 +47,7 @@ body {
     font-weight: 400;
     line-height: 30px;
     width: 634px;
-    margin-bottom: 25px;
+    margin-bottom: 32px;
 }
 
 .banner-left a {
@@ -132,7 +132,9 @@ body {
     margin: 67px 75px 0 75px;
 }
 
-.feature-flower1 p,.feature-flower2 p ,.feature-flower3 p  {
+.feature-flower1 p,
+.feature-flower2 p,
+.feature-flower3 p {
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -140,4 +142,32 @@ body {
     line-height: 35px;
     text-decoration-line: underline;
     margin-top: 32px;
+}
+
+/* about part style  */
+.about{
+    margin-bottom: 128px;
+}
+.about-container {
+    display: flex;
+    text-align: center;
+    background-color: #2727270D;
+    border-radius: 8px;
+    width: 1440px;
+    margin: 0 240px;
+}
+
+.about1,.about2,.about3{
+    margin-top: 86px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about1 p,.about2 p,.about3 p {
+    color:#272727CC;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
 }
