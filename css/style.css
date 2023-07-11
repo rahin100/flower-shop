@@ -181,10 +181,11 @@ body {
 }
 
 /* second banner style  */
-.second-banner{
+.second-banner {
     background-color: #E554730D;
     margin-bottom: 128px;
 }
+
 .second-banner-container {
     display: flex;
     align-items: center;
@@ -193,7 +194,7 @@ body {
 
 .second-banner-left {
     width: 65%;
-    
+
 }
 
 .second-banner-left h3 {
@@ -204,9 +205,11 @@ body {
     margin-bottom: 24px;
     margin-left: 200px;
 }
-.off{
+
+.off {
     color: #E55473;
 }
+
 .second-banner-left p {
     color: #27272799;
     width: 594px;
@@ -227,15 +230,48 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 20px 43px;
-    margin-left:500px;
+    margin-left: 500px;
 
 }
 
 .second-banner-right {
     width: 35%;
 }
-.second-banner-right img{
+
+.second-banner-right img {
     width: 218px;
     margin: 100px 0 100px 0;
     margin: auto;
+}
+
+/* instagram part style  */
+.instagram{
+    margin-bottom:128px;
+}
+.instagram-title h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.instagram-title p {
+    color:#27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+.instagram-container{
+    display: flex;
+    gap: 20px;
+    width: 1130px;
+    margin: 0 200px;
+}
+.insta1 img{
+    width: 267px;
 }
